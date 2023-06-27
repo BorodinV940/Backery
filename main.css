@@ -1,0 +1,214 @@
+/* reset browser styles */
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1.2;
+	/* backdrop-filter: blur(20px) saturate(120%) contrast(200%); */
+}
+ol { 
+	padding-left: 1.4em;
+	list-style: decimal;
+}
+ul {
+	padding-left: 1.4em;
+	list-style: square;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+} 
+/* end reset browser styles */
+
+body {
+  font-size: 80.5%;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #002D4B;
+  background: #E1EEFD url(images/117407_vcipc.jpg) repeat-x;
+}
+
+.main {
+  width: 740px;
+  margin: 0 auto;
+  padding: 0 10px;
+  border: 4px solid white;
+  background: transparent url(images/кофе.jpg)  no-repeat;
+  background-size: 100% 40%;
+  backdrop-filter: blur(20px) saturate(120%) contrast(200%);
+}
+
+.main h1 {
+  color: #FF6600;
+	font-family: "Arial Black", Arial, Helvetica, sans-serif;
+	font-size: 4em;
+}
+
+.main h1 strong {
+  font-size: 30px;
+  color: rgb(172, 27, 27);
+  line-height: 1em;
+  margin-right: -1.25em;
+}
+
+
+.main h2 {
+	font: bold 3.5em "Hoefler Text", Garamond, Times, serif;
+	border-bottom: 1px solid #d4d9dd;
+	color: #127527;
+	margin-top: 25px;
+}
+.main h2 strong {
+	font-size: 30px;
+	color: rgb(172, 27, 27);
+	line-height: 1em;
+	margin-right: -1.25em;
+  }
+
+.main h3 {
+	color: rgb(16, 112, 168);
+	font-size: 1.9em;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin-top: 25px;
+	margin-bottom: 10px;
+}
+
+.main p {
+	font-size: 1.5em;
+	line-height: 150%;
+	margin-bottom: 10px;
+	margin-left: 150px;
+	margin-right: 50px;
+}
+
+.main p:first-line {
+  font-weight: bold;
+  color: rgb(24, 15, 153);
+}
+
+.onas{
+	padding: 40px;
+}
+
+.resources {
+	margin: 0 0 25px 50px;
+	width: 225px;
+	float: right;
+	padding: 20px;
+	background: #F5EFFB;
+}
+
+.resources h3 {
+	margin-top: 0;
+	color: #002D4B;
+}
+
+.resources li {
+	font-size: 1.5em;
+	margin-bottom: 7px;
+	color: #207EBF;
+}
+
+.main .byline {
+  color: #16c710;
+	font-size: 1.6em;
+	margin: 5px 0 25px 40px;
+}
+
+.main .byline strong {
+	color: #207EBF;
+	text-transform: uppercase;
+	margin-left: 11px;
+} 
+.main .legal{
+	margin-top: 15px;
+	padding-top: 5px;
+	border-top: 1px solid #FFF;
+	margin-left: 0px;
+	padding-left: 150px;
+}
+a {
+	color: #207EBF;
+	text-decoration: none;
+	font-weight: bold;
+	border-bottom: 2px solid #F60;}
+	
+
+a:visited {
+	color: #6E97BF;
+}
+a:hover {
+	color: #FFF;
+	background-color: #6E97BF;
+	border-bottom-color: #6E97BF;
+}
+a [href^= "mailto:"] 
+{
+	color: #3cce6d;
+	border: none;
+	background: url(images/email.gif);
+	background-repeat: no-repeat;
+	background-position-x: left;
+	background-position-y: center;
+	padding-left: 20px;
+	margin-left: 10px;
+}
+.resources a {
+	text-decoration: none;
+	background: url(images/acrobat.png);
+	background-repeat: no-repeat;
+	background-position-x: right;
+	background-position-y: top;
+	padding-right: 22px;
+	
+}
+
+.resources a [href^= "http: //"] {
+	background: url(images/globe.png) no-repeat right top;
+	padding-right: 22px;
+}
+
+.resources a [href$='.pdf'] {
+	background: url(images/acrobat.png) no-repeat right top;
+}
+.resources a [href$='.zip'] {
+	background: url(images/zip.png) no-repeat right top;
+}
+.resources a [href$= '.doc'] {
+	background: url(images/word.png) no-repeat right top;
+}
+.resources a :hover {
+	color: #000;
+	background-color: rgba(255, 255,255,.8);
+}
+
+.tn-atom {
+    color: #ce5708;
+    font-size: 15px;
+	display:inline;
+    font-family: 'SegoePobeda',Arial,sans-serif;
+    line-height: 0.85;
+    font-weight: 700;
+	margin-left: 10px;
+	width: 150px;
+	height: 30px;
+    border-width: 10px;
+    border-radius: 20px;
+    background-color: #ebe1e1;
+    background-position: center;
+	text-align: center;
+	
+    border-color: transparent;
+    border-style: solid;
+    transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+}
